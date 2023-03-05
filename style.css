@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .container
@@ -37,14 +37,37 @@
     outline: none;
 }
 
-#input-btn
+#input-btn, #saveTab-btn
 {
-    margin: 10px 5px;
-    padding: 10px 15px;
+    margin: 5px 4px;
+    padding: 10px 12px;
     background-color: #5f9341;
     color: white;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#input-btn:hover, #saveTab-btn:hover
+{
+    box-shadow: 2px 3px 1px #80936f;
+}
+
+#delete-btn
+{
+    margin: 5px 4px;
+    padding: 10px 12px;
+    background-color: white;
+    color: #5f9341;
+    border: none;
+    font-weight: bold;
+    border: 2px solid #5f9341;
+    cursor: pointer;
+}
+
+#delete-btn:hover
+{
+    box-shadow: 1px 2px 1px #5f9341;
 }
 
 #ul-el

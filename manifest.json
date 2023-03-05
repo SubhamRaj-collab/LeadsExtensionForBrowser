@@ -1,6 +1,9 @@
 {
     "manifest_version": 3,
     "version": "1.1",
+    "permissions": [
+        "tabs"
+    ],
     "name": "Leads Tracker",
     "action": {
         "default_popup": "index.html",
